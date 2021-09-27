@@ -1,5 +1,5 @@
 # leetspeak_generator.py
-#   This program translates english messages into l33t5p34]<.
+#   This program translates English messages into l33t5p34]<.
 # by: Scott Gordon
 
 import random
@@ -20,7 +20,7 @@ def main():
 
     try:
         pyperclip.copy(leetspeak)
-        print("(Copied leetspeak to clipboard.")
+        print("(Copied leetspeak to clipboard.)")
     except NameError:
         pass
 
